@@ -1,0 +1,48 @@
+#gallary{
+    display:flex;
+    height:1600px;
+    width:auto; /*I had to change the width of the div so I can get a use of flex-wrap*/
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 30px 50px; 
+    justify-content: center;
+    /*I did not use any flex-direction because I like the current order of the photos*/  
+}
+.l1{
+    width:300px;
+    height:300px;
+}
+#l2{
+    display:flex;
+    font-size: 40px;
+    justify-content: center;
+    background-color: rgb(91, 214, 214);
+    margin:0px
+    /*I coudn't think of anything else to add considering the flexbox properties*/
+}
+.l3{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(214, 255, 255);
+    color:rgb(0, 0, 0);
+}
+.l4{
+    border: 10px solid rgb(0, 0, 0);
+    margin:100px;/*To make more space so the wrap works on a larger sreen as well :D*/
+}
+#l5{
+    order:-1;
+
+}
+#l6{
+    margin:0px;
+    background-color: rgb(214, 255, 255);
+}
+#l7{
+    order:-2;
+}
+#l8{
+    border: 10px solid black;
+}
+
