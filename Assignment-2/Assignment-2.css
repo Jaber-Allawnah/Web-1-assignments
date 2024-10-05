@@ -71,6 +71,7 @@
 #l13{
     font-size: 20px;
     color:azure;
+    text-decoration: none;
 }
 .l14{
     width: 500px;
@@ -83,10 +84,7 @@
     text-decoration: none;/*remove the underlined text*/
 
 }
-.l16{
-    text-decoration: none;
-    
-}
+
 #l17{
     display: flex;
     flex-direction: column;
