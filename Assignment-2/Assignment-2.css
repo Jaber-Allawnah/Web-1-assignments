@@ -1,9 +1,8 @@
 #grid{
     display:grid;
-    grid-template-columns:400px auto auto;
-    grid-template-columns:300px auto auto;
-
-
+    grid-template-columns:auto auto auto;
+    background-color: rgba(247, 217, 136, 0.6); ;
+/*just a grid with 3 cols only because the item only has 3 sections inside it with a light yellow background color*/
 }
 #l1{
     display:flex;
@@ -11,19 +10,23 @@
     align-items: center;
     background-color:rgb(255, 197, 36);
     margin:0;
+    /* img will be centered after this*/
+
     
 }
 #l2{
-    list-style-type:none;
+    list-style-type:none;/* to remove bullet poionts and make it look like a bar */
+
     background-color: rgba(255, 197, 36,0.6);
    
 }
 .l3{
-    display:inline-block;
-    margin-right :100px;
+    display:inline-block;/* list items are blocks so using inline-blocks will make them act as inline*/
+    margin-right :100px;/* for spacing between the items in the bar*/
     font-size:20px;
-    color:rgb(29, 58, 103);
+    color:rgb(255, 255, 255);
     padding:20px;
+    background-color: rgba(255, 190, 12, 0.6); 
 }
 #l4{
     width:150px;
@@ -41,6 +44,66 @@
 
 }
 #l8{
+    display:flex;
+    flex-wrap:wrap;
     width:500px;
     height: 250px;
 }
+.l9{
+    display:flex;
+    justify-content:center;
+    background-color: rgba(32, 32, 252, 0.3);
+}
+.l10{
+    font-size: 20px;
+}
+#l11{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(117, 117, 255, 0.1);;
+}
+#l12{
+    color: black;
+    background-color: rgba(0, 0, 255, 0.5);
+
+
+}
+#l13{
+    font-size: 20px;
+    color:azure;
+}
+.l14{
+    width: 500px;
+    height: 250px;
+    border:3px solid black;
+}
+.l15{
+    font-size:20px;
+    background-color: rgba(0, 0, 255, 0.2); 
+    text-decoration: none;/*remove the underlined text*/
+
+}
+.l16{
+    text-decoration: none;
+    
+}
+#l17{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(117, 117, 255, 0.1);
+
+  
+
+}
+.l18{
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 255, 0.2); 
+    font-size:20px;
+    color: black;
+
+
+}
+/*soe stuff are obviuos so I did not comment them they are just basics*/
+/*tried to use flex as much as I can since it is something new that I learned and I added some stuff tha twe did not learn using ai help*/
