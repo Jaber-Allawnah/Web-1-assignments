@@ -140,3 +140,7 @@ button{
 text-decoration: none;
 color: white;
 }/*Remove the underline from my anchor and made it white color*/
+#cart{ position: relative;
+    right: 10px;
+    margin-left: 8px;
+}
