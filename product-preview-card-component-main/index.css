@@ -1,0 +1,142 @@
+.attribution{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}/*I made the writing added by the website itself in the middle of the body*/
+
+body{
+    position: relative;
+    background-color: hsl(30, 38%, 92%);
+    width: 1584px;
+    height: 700px;
+}/*I added width and height for the width because I made it position relative and without that the compenents were disappearing*/
+
+main{
+    position: absolute;
+    position: relative;
+    height: 470px;
+    width: 600px;
+    overflow: hidden;
+    background-color: white;
+    left: 474px;
+    top: 200px;
+    border: none;
+    border-radius: 10px;/*This was to made the curve in the border*/
+}/*I made is move relatite to the body estimated the width and height and also made it realtive to I can move inside compnenets*/
+
+img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    top:0px; 
+}/*Made the image absolute to make it move withing the main*/
+
+#desc{
+   position: relative;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+   width: 50%;
+   top:0px;
+   overflow: hidden; 
+}/*Also made it move withing the parent main and made is relative to children move relative to it*/
+
+.inline{
+    display: inline-block;
+}/*I made the new price Paragraps inline to make it in the same line as the old price */
+
+#l1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:hsl(228, 12%, 48%); 
+}/*moved with margin to I can move the whole elements in the flow with them and added the required font family code*/
+
+#l2{ 
+    color: hsl(212, 21%, 14%);
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size:40px ;
+    margin-top: 0px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+    line-height: 1;
+}/*Also moved with margin for the same purpose added the required font and then reduced the line height to make it close to the design*/
+
+#l3{
+    color: hsl(228, 12%, 48%);
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}/*Nothing special here just added the required font*/
+
+#l4{
+    font-size:40px ;
+    color:hsl(158, 36%, 37%); 
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+}/*Nothing special here just added the required font*/
+
+#l5{
+    position: relative;
+    color: hsl(228, 12%, 48%);
+    margin-left: 30px;
+    font-size: 13px;
+    text-decoration: line-through;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    bottom:10px;
+    right: 12px;
+    border: none;
+}/*I made it move within relative to the div so I can position it prefectly, added linethrough decoration,and the required font */
+
+#l6{
+    margin-left: 20px;
+
+}/*Nothing special here */
+
+button{
+    position: relative;
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    font-size: 17px;
+    width:240px;
+    height:45px;
+    border:none ;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    word-spacing: 0px;
+    top: 15px;
+    left: 10px;
+}/*had to move it relative to the div to position it prefectly,removed border and added a cruve using border radius and added the required font*/
+
+#linkcart{
+text-decoration: none;
+color: white;
+}/*Remove the underline from my anchor and made it white color*/
